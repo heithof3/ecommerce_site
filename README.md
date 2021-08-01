@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+                ************************************************************
+                *                    E-commerce site                        *
+                ************************************************************
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Started with create react app. Need to bring some libary
 
-In the project directory, you can run:
+@material-ui/core (Styling Layout)
 
-### `npm start`
+@material-ui/icons (Shopping art icon)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+@chec/commerce.js (pre-made api back-end for holding are items for ecommerce site)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+@stripe/react-stipe-js (taking in card payments)
 
-### `npm test`
+react-router-dom
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+react-hook-from
 
-### `npm run build`
+@stripe/stripe-js (testing stripe with a testing card)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*********************
+** Products folder **
+*********************
+Products page to take all of the product inventorer and displays on are site.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Product page is the why i would like it to show and look like.
 
-### `npm run eject`
+Note: with using grow it going to us what we need in the area we need it no matter what.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+******************
+** Asset folder **
+******************
+har right now just my logo image.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Nabbar:
+Navbar.jxs the of page 
+    note: when using Badge from material-ui/core it a count for how many items are in the cart as a static right now will be fixing later.
